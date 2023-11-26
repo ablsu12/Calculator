@@ -1,0 +1,12 @@
+.calculatorBody {
+    width: 100%;
+    background-color: blueviolet;
+    grid-row: span 6;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 1px;
+    box-shadow: 0 0 1px black;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
