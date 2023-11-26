@@ -1,0 +1,9 @@
+.calculator {
+    width: 245px;
+    height: 385px;
+    background: floralwhite;
+    border-radius: 8px;
+    display: grid;
+    grid-template-rows: repeat(8, 1fr);
+}
+
