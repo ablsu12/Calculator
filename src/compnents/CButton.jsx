@@ -1,9 +1,9 @@
 import styles from "./CButton.module.css";
-export const CButton = ({ children, addClass }) => {
+export const CButton = ({ value, addClass, btnHandler }) => {
   return (
     <>
-      <button className={`${styles.btn} ${addClass}`}>
-        {children}
+      <button onClick={btnHandler} className={`${styles.btn} ${addClass}`}>
+        {value}
       </button>
     </>
   );
