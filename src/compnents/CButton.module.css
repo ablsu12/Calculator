@@ -1,24 +1,8 @@
 .btn {
   width: 100%;
-  background-color: rgba(11, 143, 216, 0.54);
+  background-color: rgba(11, 143, 216, 0.58);
+  color: #012e6b;
   font-weight: bold;
 }
-.roundedBtn {
-  width: 100%;
-  background-color: rgba(11, 143, 216, 0.54);
-  font-weight: bold;
-  border-bottom-left-radius: 8px;
-}
-.lightColorBtn {
-  width: 100%;
-  background-color: rgba(11, 143, 216, 0.79);
-  font-weight: bold;
-}
-.doubleBtn {
-  width: 100%;
-  grid-column: span 2;
-  border-bottom-right-radius: 8px;
-  background-color: rgba(11, 143, 216, 0.54);
-  font-weight: bold;
- }
+
 
