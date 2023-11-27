@@ -1,0 +1,9 @@
+.calculatorBody {
+    width: 100%;
+    grid-row: span 6;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 1px;
+    box-shadow: 0 0 1px black;
+}
